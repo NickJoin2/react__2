@@ -1,0 +1,61 @@
+.footer {
+    padding-top: 200px;
+    color: #FFFFFF;
+
+    &__inner {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        gap: 150px;
+    }
+
+    &__blocks{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    &__questions {
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+    }
+
+    &__tel a{
+        font-size: 18px;
+        line-height: 21px;
+        text-decoration: none;
+        color: #fff;
+
+
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+    &__email{
+        font-size: 18px;
+        line-height: 21px;
+        text-decoration: none;
+        color: #fff;
+        padding-bottom: 35px;
+
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+    &__text{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-bottom: 20px;
+    }
+
+    &__social{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+}
